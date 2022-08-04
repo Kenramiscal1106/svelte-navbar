@@ -15,13 +15,13 @@
 <nav class:sticky={isSticky}>
   <ul>
     <li>
-      <a href="#">Home</a>
+      <a href="#test">Home</a>
     </li>
     <li>
-      <a href="#">About</a>
+      <a href="#test">About</a>
     </li>
     <li>
-      <a href="#">Contact</a>
+      <a href="#test">Contact</a>
     </li>
   </ul>
 </nav>
