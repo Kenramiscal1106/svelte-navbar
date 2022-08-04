@@ -3,7 +3,7 @@
   let isSticky = false;
   onMount(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 0) {
         isSticky = true;
         return;
       }
@@ -63,7 +63,7 @@
   nav.sticky {
     background: #fff;
     position: fixed;
-    animation: slide-down 0.175s ease-out forwards;
+    animation: slide-down 0.2s ease-out forwards;
   }
   @keyframes slide-down {
     from {
